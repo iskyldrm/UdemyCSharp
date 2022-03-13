@@ -10,6 +10,8 @@ namespace Udemy_ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
+            Console.ReadLine();
         }
     }
 }
