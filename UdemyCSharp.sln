@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy-ConsoleApp1", "Udemy-ConsoleApp1\Udemy-ConsoleApp1.csproj", "{BFABEE44-BACB-4550-BC51-C3811A6FC3D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Udemy-ConsoleApp1", "Udemy-ConsoleApp1\1.Udemy-ConsoleApp1.csproj", "{BFABEE44-BACB-4550-BC51-C3811A6FC3D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Udemy-Collection-Exception", "2.Udemy-Collection-Exception\2.Udemy-Collection-Exception.csproj", "{039694ED-3A13-4309-9BD0-18C82D553C90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BFABEE44-BACB-4550-BC51-C3811A6FC3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFABEE44-BACB-4550-BC51-C3811A6FC3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFABEE44-BACB-4550-BC51-C3811A6FC3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{039694ED-3A13-4309-9BD0-18C82D553C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{039694ED-3A13-4309-9BD0-18C82D553C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{039694ED-3A13-4309-9BD0-18C82D553C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{039694ED-3A13-4309-9BD0-18C82D553C90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
