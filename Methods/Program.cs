@@ -17,6 +17,7 @@ namespace Methods
             Bosluk();
 
             
+            
             Yaz(EnBuyuk(1111,4,3333,99,888).ToString());
 
         }

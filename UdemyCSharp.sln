@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Udemy-Collection-Exceptio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Udemy-Methods", "Methods\3.Udemy-Methods.csproj", "{2F115284-A5E3-4252-A307-223078F1CC10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Udemy-Classes", "4.Udemy-Classes\4.Udemy-Classes.csproj", "{70EC120D-A708-4AC0-BF8A-7965F1A2A331}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2F115284-A5E3-4252-A307-223078F1CC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F115284-A5E3-4252-A307-223078F1CC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F115284-A5E3-4252-A307-223078F1CC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70EC120D-A708-4AC0-BF8A-7965F1A2A331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70EC120D-A708-4AC0-BF8A-7965F1A2A331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70EC120D-A708-4AC0-BF8A-7965F1A2A331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70EC120D-A708-4AC0-BF8A-7965F1A2A331}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
