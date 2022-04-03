@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _3.Udemy_Methods;
+using System;
 
 namespace _4.Udemy_Classes
 {
@@ -10,6 +11,7 @@ namespace _4.Udemy_Classes
 
 
             Kutu kutu = new Kutu(85,66,99);
+            
 
             kutu.Uzunluk = 100;
 
@@ -17,11 +19,12 @@ namespace _4.Udemy_Classes
             Console.WriteLine(kutu);
             Console.WriteLine(kutu);
 
-            
-            
+            Deneme deneme = new Deneme();
 
-
+            deneme.Yaz("skjdbaksdasd");
+            
         }
+        
 
         
         

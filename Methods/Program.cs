@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _3.Udemy_Methods;
+using System;
 
 namespace Methods
 {
@@ -9,16 +10,19 @@ namespace Methods
             Console.WriteLine("Hello World!");
 
             Bosluk();
+            Deneme deneme = new Deneme();
+
+            
 
             Console.WriteLine("Hello World!");
 
-            Yaz( GetAccountName(7));
+            deneme.Yaz( GetAccountName(7));
 
             Bosluk();
 
             
             
-            Yaz(EnBuyuk(1111,4,3333,99,888).ToString());
+            deneme.Yaz(EnBuyuk(1111,4,3333,99,888).ToString());
 
         }
 
@@ -27,10 +31,7 @@ namespace Methods
             Console.WriteLine(Environment.NewLine);
         }
 
-        static void Yaz(string Metin)
-        {
-            Console.WriteLine(Metin);
-        }
+        
 
         public enum AccounName
         {
