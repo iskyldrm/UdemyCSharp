@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Udemy-Classes", "4.Udemy-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.Udemy-NameSpaces", "5.Udemy-NameSpaces\5.Udemy-NameSpaces.csproj", "{C5A101B8-7D6A-470D-A50B-19DAB0EB0AC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Udemy-İnharetance(Kalıtım)", "6.Udemy-İnharetance(Kalıtım)\6.Udemy-İnharetance(Kalıtım).csproj", "{639CE8F2-D79F-4C5C-B376-C4B3FDCFA995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.Udemy-İnharetance(Kalıtım)", "6.Udemy-İnharetance(Kalıtım)\6.Udemy-İnharetance(Kalıtım).csproj", "{639CE8F2-D79F-4C5C-B376-C4B3FDCFA995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Udemy-PolyMorphism", "7.Udemy-PolyMorphism\7.Udemy-PolyMorphism.csproj", "{EDB0AE83-BBF0-4C18-B928-71920028BAE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{639CE8F2-D79F-4C5C-B376-C4B3FDCFA995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{639CE8F2-D79F-4C5C-B376-C4B3FDCFA995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{639CE8F2-D79F-4C5C-B376-C4B3FDCFA995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB0AE83-BBF0-4C18-B928-71920028BAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB0AE83-BBF0-4C18-B928-71920028BAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB0AE83-BBF0-4C18-B928-71920028BAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB0AE83-BBF0-4C18-B928-71920028BAE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
