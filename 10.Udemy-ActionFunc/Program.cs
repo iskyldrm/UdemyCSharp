@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _10.Udemy_ActionFunc
 {
@@ -64,6 +65,7 @@ namespace _10.Udemy_ActionFunc
 
 
         }
+        p
 
 
         static void KullaniciBilgileri(int KulId, string KulAdi)
@@ -79,6 +81,8 @@ namespace _10.Udemy_ActionFunc
             return YasananGun;
         }
 
+
+        /* Predicate bool değen dönen bir delegate  */
         public static void PredicateSample()
         {
             int[] sayilar = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
