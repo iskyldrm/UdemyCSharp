@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.Udemy-DelegateEvent", "9.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.Udemy-ActionFunc", "10.Udemy-ActionFunc\10.Udemy-ActionFunc.csproj", "{AB7E1728-5AA3-4C34-AF3E-E0D2B098238F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Udemy-LINQ", "11.Udemy-LINQ\11.Udemy-LINQ.csproj", "{CA7F89D3-55D3-4E93-99DA-6B77343F8243}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.Udemy-LINQ", "11.Udemy-LINQ\11.Udemy-LINQ.csproj", "{CA7F89D3-55D3-4E93-99DA-6B77343F8243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.Udemy-ADO.NET", "12.Udemy-ADO.NET\12.Udemy-ADO.NET.csproj", "{360AF6F1-595E-4E0D-8DE1-A85F04D322C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{CA7F89D3-55D3-4E93-99DA-6B77343F8243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA7F89D3-55D3-4E93-99DA-6B77343F8243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA7F89D3-55D3-4E93-99DA-6B77343F8243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360AF6F1-595E-4E0D-8DE1-A85F04D322C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360AF6F1-595E-4E0D-8DE1-A85F04D322C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360AF6F1-595E-4E0D-8DE1-A85F04D322C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360AF6F1-595E-4E0D-8DE1-A85F04D322C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
