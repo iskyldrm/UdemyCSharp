@@ -27,6 +27,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.Udemy-LINQ", "11.Udemy-L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.Udemy-ADO.NET", "12.Udemy-ADO.NET\12.Udemy-ADO.NET.csproj", "{360AF6F1-595E-4E0D-8DE1-A85F04D322C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.Udemy-ADO.NET-Northwind", "13.Udemy-ADO.NET-Northwind\13.Udemy-ADO.NET-Northwind.csproj", "{35519680-40EF-4BFC-BEF0-AC5E1243A6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.Udemy-Entity-Facade", "14.Udemy-Entity-Facade\14.Udemy-Entity-Facade.csproj", "{5FAC42DC-6293-4AE7-A38D-308364D849DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{360AF6F1-595E-4E0D-8DE1-A85F04D322C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{360AF6F1-595E-4E0D-8DE1-A85F04D322C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{360AF6F1-595E-4E0D-8DE1-A85F04D322C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35519680-40EF-4BFC-BEF0-AC5E1243A6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35519680-40EF-4BFC-BEF0-AC5E1243A6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35519680-40EF-4BFC-BEF0-AC5E1243A6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35519680-40EF-4BFC-BEF0-AC5E1243A6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FAC42DC-6293-4AE7-A38D-308364D849DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAC42DC-6293-4AE7-A38D-308364D849DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAC42DC-6293-4AE7-A38D-308364D849DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAC42DC-6293-4AE7-A38D-308364D849DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
