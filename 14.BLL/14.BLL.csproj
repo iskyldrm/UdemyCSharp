@@ -5,4 +5,9 @@
     <RootNamespace>_14.BLL</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\14.Entity\14.Entity.csproj" />
+    <ProjectReference Include="..\14.Facade\14.Facade.csproj" />
+  </ItemGroup>
+
 </Project>

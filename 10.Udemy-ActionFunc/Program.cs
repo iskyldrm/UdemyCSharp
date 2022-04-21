@@ -65,7 +65,7 @@ namespace _10.Udemy_ActionFunc
 
 
         }
-        p
+        
 
 
         static void KullaniciBilgileri(int KulId, string KulAdi)
