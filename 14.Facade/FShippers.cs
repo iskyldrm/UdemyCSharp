@@ -18,16 +18,13 @@ namespace _14.Facade
             SqlCommand cmd = new SqlCommand();
 
             cmd.Connection = conn;
-            cmd.CommandText = "pr_ShippherAdd";
+            cmd.CommandText = "pr_ShipperAdd";
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-                new SqlParameter{ParameterName = "CompanyName", Value=shipper.CompanyName },
-                new SqlParameter{ParameterName = "Phone", Value=shipper.CompanyPhone }
-            };
+            SqlParameter parameters = new SqlParameter();
 
-            cmd.Parameters.Add(parameters);
+            cmd.Parameters.AddWithValue("CompanyName", shipper.CompanyName);
+            cmd.Parameters.AddWithValue("Phone", shipper.CompanyPhone);
 
             try
             {
@@ -65,14 +62,16 @@ namespace _14.Facade
             cmd.CommandText = "pr_ShippherUpdate";
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-                new SqlParameter{ParameterName = "ShipperID", Value=shipper.ShipperId },
-                new SqlParameter{ParameterName = "CompanyName", Value=shipper.CompanyName },
-                new SqlParameter{ParameterName = "Phone", Value=shipper.CompanyPhone }
-            };
+            SqlParameter parameters = new SqlParameter();
+            //{
+            //    new SqlParameter{ParameterName = "ShipperID", Value=shipper.ShipperId },
+            //    new SqlParameter{ParameterName = "CompanyName", Value=shipper.CompanyName },
+            //    new SqlParameter{ParameterName = "Phone", Value=shipper.CompanyPhone }
+            //};
 
-            cmd.Parameters.Add(parameters);
+            cmd.Parameters.AddWithValue("ShipperID", shipper.ShipperId);
+            cmd.Parameters.AddWithValue("CompanyName", shipper.CompanyName);
+            cmd.Parameters.AddWithValue("Phone", shipper.CompanyPhone);
 
             try
             {

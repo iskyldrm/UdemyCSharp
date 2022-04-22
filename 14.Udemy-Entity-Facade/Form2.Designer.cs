@@ -34,8 +34,8 @@
             this.txtCPG = new System.Windows.Forms.TextBox();
             this.btnCompanyUpdate = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lblIDG = new System.Windows.Forms.Label();
             this.txtIDG = new System.Windows.Forms.TextBox();
+            this.lblIDG = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,6 +81,7 @@
             this.btnCompanyUpdate.TabIndex = 4;
             this.btnCompanyUpdate.Text = "GÜNCELLE";
             this.btnCompanyUpdate.UseVisualStyleBackColor = false;
+            this.btnCompanyUpdate.Click += new System.EventHandler(this.btnCompanyUpdate_Click);
             // 
             // groupBox1
             // 
@@ -98,6 +99,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sahippers UPDATE";
             // 
+            // txtIDG
+            // 
+            this.txtIDG.Location = new System.Drawing.Point(198, 47);
+            this.txtIDG.Name = "txtIDG";
+            this.txtIDG.Size = new System.Drawing.Size(253, 27);
+            this.txtIDG.TabIndex = 6;
+            // 
             // lblIDG
             // 
             this.lblIDG.AutoSize = true;
@@ -106,13 +114,6 @@
             this.lblIDG.Size = new System.Drawing.Size(65, 20);
             this.lblIDG.TabIndex = 5;
             this.lblIDG.Text = "Şirket ID";
-            // 
-            // txtIDG
-            // 
-            this.txtIDG.Location = new System.Drawing.Point(198, 47);
-            this.txtIDG.Name = "txtIDG";
-            this.txtIDG.Size = new System.Drawing.Size(253, 27);
-            this.txtIDG.TabIndex = 6;
             // 
             // Form2
             // 

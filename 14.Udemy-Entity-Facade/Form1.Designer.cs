@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnSil = new System.Windows.Forms.Button();
             this.txtIDS = new System.Windows.Forms.TextBox();
             this.lblIDD = new System.Windows.Forms.Label();
             this.btnCompanyUpdate = new System.Windows.Forms.Button();
-            this.btnSil = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,6 +48,18 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sahippers DELETE";
+            // 
+            // btnSil
+            // 
+            this.btnSil.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnSil.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSil.Location = new System.Drawing.Point(357, 127);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(94, 29);
+            this.btnSil.TabIndex = 7;
+            this.btnSil.Text = "SİL";
+            this.btnSil.UseVisualStyleBackColor = false;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // txtIDS
             // 
@@ -75,17 +87,6 @@
             this.btnCompanyUpdate.TabIndex = 4;
             this.btnCompanyUpdate.Text = "güncelle";
             this.btnCompanyUpdate.UseVisualStyleBackColor = false;
-            // 
-            // btnSil
-            // 
-            this.btnSil.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btnSil.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSil.Location = new System.Drawing.Point(357, 127);
-            this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(94, 29);
-            this.btnSil.TabIndex = 7;
-            this.btnSil.Text = "SİL";
-            this.btnSil.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 

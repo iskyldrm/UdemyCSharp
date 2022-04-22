@@ -8,4 +8,9 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\14.BLL\14.BLL.csproj" />
+    <ProjectReference Include="..\14.Entity\14.Entity.csproj" />
+  </ItemGroup>
+
 </Project>
